@@ -1,0 +1,87 @@
+/*
+     Name: Mariella Gauvreau
+     Date: September 28, 2018
+     Section: CSE 154 AB
+     This is the index.css page for my portfolio of web development work. All my pages in my,
+     portfolio use index.css to give the pages a consistent and professional look.
+*/
+header {
+  color: green;
+  font-size: 24pt;
+  font-weight: bold;
+  font-style: italic;
+  font-family: serif;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+body {
+  background-color: #d7d7d7;
+  font-family: serif;
+}
+
+ol > li img9 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.intro {
+  text-align: center;
+}
+
+.intro, .mainSection {
+  background-color: white;
+}
+
+nav {
+  font-size: 16pt;
+  display: block;
+  color: black;
+  float: right;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 65px;
+  padding-top: 10px;
+}
+
+nav a {
+  color: green;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+footer {
+  text-align: center;
+}
+
+p {
+  color: black;
+  font-size: 16pt;
+  font-style: italic;
+}
+
+h1 {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+ol {
+  list-style: none;
+}
+div li {
+  display: inline;
+}
+
+div {
+  text-align: center;
+}
